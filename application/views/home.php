@@ -30,7 +30,7 @@
       <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
         <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
       </svg>
-      <h5 class="preloader-text">Isti</h5>
+      <h5 class="preloader-text">SK</h5>
     </div>
     <!--================================
         PRELOADER END
@@ -40,7 +40,7 @@
     ==============================-->
     <nav class="navbar navbar-expand-lg tf__main_menu pl_50 pr_60">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html"
+        <a class="navbar-brand" href="/"
           ><img src="assets/images/logo_1.png" alt="logo" class="img-fluid w-100"
         /></a>
         <button
@@ -58,13 +58,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active text_hover_animaiton" href="#"
-                >Home <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="tf__dropdown">
-                <li><a href="/index.html">Multipage</a></li>
-                <li><a href="/index-2.html">Onepage</a></li>
-              </ul>
+              <a class="nav-link text_hover_animaiton" href="#home"
+                >Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="#about"
@@ -107,30 +102,27 @@
     <!--============================
         BANNER START
     ==============================-->
-    <section
-      class="tf__banner pt_100 pl_60 pr_60 bg-fixed"
-      style="background: url(assets/images/banner_bg.jpg)"
-    >
+    <section class="tf__banner pt_100 pl_60 pr_60 bg-fixed" id="home" style="background: url(assets/images/banner_bg.jpg)">
       <div class="container-fluid h-100">
         <div class="row align-items-center h-100">
           <div class="col-xxl-6 col-xl-6">
             <div class="tf__banner_img">
               <img
-                src="assets/images/banner_img.png"
+                src="assets/images/banner_img.jpg"
                 alt="portfolio img"
                 class="img-fluid w-100"
+                style="border-radius : 50%"
               />
             </div>
           </div>
           <div class="col-xxl-5 col-xl-6 ms-auto">
             <div class="tf__banner_text">
-              <h3 data-text-animation="rotate-in">Hello I'm Mezbah</h3>
+              <h3 data-text-animation="rotate-in">Hello I'm SivaKumar</h3>
               <h1 data-text-animation="rotate-in">
-                CREATIVE DESIGNER BASED IN USA
+                Full Stack Web Developer in MERN and PHP
               </h1>
               <p>
-                As a passionate UI/UX Designer, I thrive on creating beautiful
-                and intuitive digital experiences that delight users.
+              As a skilled Full Stack Web Developer, I am dedicated to building seamless and dynamic web applications that deliver both functionality and performance.
               </p>
 
               <ul class="d-flex flex-wrap">
@@ -165,7 +157,7 @@
     <!--============================
         ABOUT START
     ==============================-->
-    <section class="tf__about pt_150" id="about">
+    <section class="tf__about pt_100" id="about">
       <div class="container">
         <div class="row">
           <div class="col-xl-4 col-lg-4">
@@ -175,17 +167,14 @@
                 Visual Journey through my Portfolio
               </h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illonge inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam
+              As a passionate Web Developer, I specialize in creating responsive, user-friendly websites and web applications. With a strong focus on clean code and seamless functionality, I am committed to building digital experiences that are both intuitive and impactful.
               </p>
             </div>
           </div>
           <div class="col-xl-8 col-lg-8">
             <div class="tf__about_img">
               <img
-                src="assets/images/about_img.jpg"
+                src="assets/images/about_img_1.png"
                 alt="about img"
                 class="img-fluid w-100 parallax-image"
               />
@@ -201,7 +190,7 @@
     <!--============================
         SERVICE START
     ==============================-->
-    <section class="tf__service pt_145" id="service">
+    <section class="tf__service pt_110" id="service">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-9">
@@ -213,13 +202,13 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-xl-4 col-md-6">
             <div class="tf__single_service" data-animation="fade-left">
               <div class="tf__single_service_img">
                 <div data-animation="img-blur">
                   <img
-                    src="assets/images/service_1.jpg"
+                    src="assets/images/service_1.webp"
                     alt="service"
                     class="img-fluid w-100"
                   />
@@ -229,14 +218,12 @@
               <div class="tf__single_service_text">
                 <a href="#">Website Design</a>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore incididunt ut
-                  labore et dolore
+                Our website design service combines creativity and responsiveness to deliver a stunning online presence that drives engagement.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
+          <!-- <div class="col-xl-4 col-md-6">
             <div
               class="tf__single_service"
               data-animation="fade-left"
@@ -287,7 +274,7 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -430,7 +417,7 @@
     <!--============================
         PORTFOLIO START
     ==============================-->
-    <section class="tf__portfolio pt_150" id="projects">
+    <section class="tf__portfolio pt_100" id="projects">
       <div class="container">
         <div class="row">
           <div class="col-xl-8 order-xl-1 order-2">

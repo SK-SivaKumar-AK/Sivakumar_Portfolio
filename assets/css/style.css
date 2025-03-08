@@ -107,7 +107,7 @@ button:focus {
 }
 
 .tf__common_heading h2 {
-  font-size: 55px;
+  font-size: 53px;
   font-weight: 800;
   text-transform: capitalize;
   margin-bottom: 75px;
@@ -663,6 +663,7 @@ button:focus {
 .tf__about_text p {
   margin-top: 45px;
   line-height: 25px;
+  width: 70%;
 }
 
 .tf__about_img {
@@ -2726,7 +2727,7 @@ h5.preloader-text {
 }
 
 h5.preloader-text::after {
-  content: "Isti";
+  content: "Sk";
   position: absolute;
   left: 0;
   top: 0;
