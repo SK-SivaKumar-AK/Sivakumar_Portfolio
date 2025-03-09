@@ -5,12 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="keywords"
-      content="html, personal, personal portfolio, dark, minimal, html template, site template, designer, developer, youtuber, vloger, bloger, bootstrap, dark theme, personal dark theme, personal dark template"
-    />
-    <meta name="description" content="Isti personal portfolio HTML Template." />
-    <meta name="author" content="codeefly" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="Sivakumar Portfolio" />
+    <meta name="author" content="sivakumar" />
     <title>Isti - Creative Portfolio HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="assets/css/fontawesomepro.css" />
