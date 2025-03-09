@@ -72,21 +72,21 @@
               >
             </li>
             <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#skills"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link text_hover_animaiton" href="#projects"
                 >Projects</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#"
-                >Blog <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="tf__dropdown">
-                <li><a href="/blog.html">blog</a></li>
-                <li><a href="/blog-details.html">blog details</a></li>
-              </ul>
+              <a class="nav-link text_hover_animaiton" href="#testimonial"
+                >Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="/contact.html"
+              <a class="nav-link text_hover_animaiton" href="#contact"
                 >Contact
               </a>
             </li>
@@ -128,12 +128,12 @@
               <ul class="d-flex flex-wrap">
                 <li>
                   <a
-                    href="#"
+                    href="assets/images/SivaKumarA_Resume_Updated.pdf" target="_blank"
                     class="tf__common_btn d-flex align-items-center download_btn"
                     >Download Cv <i class="isti-download"></i
                   ></a>
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     class="tf__common_btn tf___video_btn venobox"
                     data-autoplay="true"
@@ -143,7 +143,7 @@
                     <i class="fa-sharp fa-solid fa-circle-play"></i>Watch The
                     Video</a
                   >
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -190,7 +190,7 @@
     <!--============================
         SERVICE START
     ==============================-->
-    <section class="tf__service pt_110" id="service">
+    <section class="tf__service pt_100" id="service">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-9">
@@ -285,7 +285,7 @@
     <!--============================
         SKILL START
     ==============================-->
-    <section class="tf__skill pt_140">
+    <section class="tf__skill pt_100" id="skills">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-9">
@@ -305,17 +305,15 @@
               <div class="row">
                 <div class="col-xl-3 col-lg-3">
                   <div class="tf__single_skill_left">
-                    <h6>2019 - Present</h6>
-                    <span>Creative Agency</span>
-                    <p>Framer Designer & Developer</p>
+                    <h6>2023 - 2025</h6>
+                    <span>Greypath Solutions</span>
+                    <p>Website Developer</p>
                   </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
                   <div class="tf__single_skill_middle">
                     <p>
-                      Nemo enim ipsam voluptatem designr quia voluptas sit
-                      aspernatur aut odit aut fugit sed thisnquia consequuntur
-                      magni dolores eos qUI Designe ratione
+                    Experienced in building dynamic web applications using the MERN stack (MongoDB, Express.js, React, Node.js), providing full-stack solutions from front-end to back-end.
                     </p>
                   </div>
                 </div>
@@ -324,52 +322,16 @@
                     <p>Performence</p>
                     <div id="bar1" class="barfiller">
                       <div class="tipWrap">
-                        <span class="tip"> 70% </span>
+                        <span class="tip"> 95% </span>
                       </div>
-                      <span class="fill" data-percentage="70"></span>
+                      <span class="fill" data-percentage="95"></span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-12">
-            <div
-              class="tf__single_skill"
-              data-animation="fade-bottom"
-              data-delay=".25"
-            >
-              <div class="row">
-                <div class="col-xl-3 col-lg-3">
-                  <div class="tf__single_skill_left">
-                    <h6>2014 - 2018</h6>
-                    <span>Samsung tech</span>
-                    <p>Web Application Manager</p>
-                  </div>
-                </div>
-                <div class="col-xl-5 col-lg-5">
-                  <div class="tf__single_skill_middle">
-                    <p>
-                      Nemo enim ipsam voluptatem designr quia voluptas sit
-                      aspernatur aut odit aut fugit sed thisnquia consequuntur
-                      magni dolores eos qUI Designe ratione
-                    </p>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                  <div class="tf__team_skills_bar_single">
-                    <p>Performence</p>
-                    <div id="bar2" class="barfiller">
-                      <div class="tipWrap">
-                        <span class="tip"></span>
-                      </div>
-                      <span class="fill" data-percentage="80"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div class="col-xl-12">
             <div
               class="tf__single_skill"
@@ -379,17 +341,15 @@
               <div class="row">
                 <div class="col-xl-3 col-lg-3">
                   <div class="tf__single_skill_left">
-                    <h6>2008-2013</h6>
-                    <span>METAVERSE </span>
-                    <p>Framer Designer & Developer</p>
+                    <h6>2021-2023</h6>
+                    <span>Soft and Soft computer solution </span>
+                    <p>Website Developer</p>
                   </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
                   <div class="tf__single_skill_middle">
                     <p>
-                      Nemo enim ipsam voluptatem designr quia voluptas sit
-                      aspernatur aut odit aut fugit sed thisnquia consequuntur
-                      magni dolores eos qUI Designe ratione
+                    Experienced in full-stack web development with PHP, handling both front-end and back-end processes to create dynamic, responsive applications.
                     </p>
                   </div>
                 </div>
@@ -400,7 +360,7 @@
                       <div class="tipWrap">
                         <span class="tip"></span>
                       </div>
-                      <span class="fill" data-percentage="90"></span>
+                      <span class="fill" data-percentage="80"></span>
                     </div>
                   </div>
                 </div>
@@ -417,7 +377,7 @@
     <!--============================
         PORTFOLIO START
     ==============================-->
-    <section class="tf__portfolio pt_100" id="projects">
+    <section class="tf__portfolio pt_60">
       <div class="container">
         <div class="row">
           <div class="col-xl-8 order-xl-1 order-2">
@@ -425,7 +385,7 @@
               <div class="col-xl-6">
                 <div class="tf__portfolio_img">
                   <img
-                    src="assets/images/portfolio_1.jpg"
+                    src="assets/images/portfolio_1.png"
                     alt="portfolio img"
                     class="img-fluid w-100"
                   />
@@ -434,7 +394,7 @@
               <div class="col-xl-6">
                 <div class="tf__portfolio_img">
                   <img
-                    src="assets/images/portfolio_2.jpg"
+                    src="assets/images/portfolio_2.png"
                     alt="portfolio img"
                     class="img-fluid w-100"
                   />
@@ -443,7 +403,7 @@
               <div class="col-xl-6">
                 <div class="tf__portfolio_img">
                   <img
-                    src="assets/images/portfolio_1.jpg"
+                    src="assets/images/portfolio_3.png"
                     alt="portfolio img"
                     class="img-fluid w-100"
                   />
@@ -452,7 +412,124 @@
               <div class="col-xl-6">
                 <div class="tf__portfolio_img">
                   <img
-                    src="assets/images/portfolio_2.jpg"
+                    src="assets/images/portfolio_4.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_5.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_6.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_7.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_8.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_9.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_10.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_11.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_12.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_13.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_14.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_15.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_16.png"
+                    alt="portfolio img"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tf__portfolio_img">
+                  <img
+                    src="assets/images/portfolio_17.png"
                     alt="portfolio img"
                     class="img-fluid w-100"
                   />
@@ -462,13 +539,10 @@
           </div>
           <div class="col-xl-4 my-auto order-xl-2 order-1">
             <div class="tf__common_heading tf__portfolio_heading">
-              <h5>gallery</h5>
-              <h2 data-text-animation="rotate-in">Latests Portfolio</h2>
+              <h5>Technology</h5>
+              <h2 data-text-animation="rotate-in">Latests Technology</h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                design accusantium doloremque laudantium Sed ut perspiciatis
-                unde omnis iste natus error sit voluptatem design accusantium
-                doloremque laudantium
+              Passionate about staying at the forefront of web development by using the latest technologies to build scalable, high-performance applications.
               </p>
             </div>
           </div>
@@ -480,14 +554,129 @@
     ==============================-->
 
     <!--============================
+        BLOG START
+    ==============================-->
+    <section class="tf__blog pt_100 pb_120" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div
+                class="tf__common_heading tf__common_heading2 tf__blog_heading"
+              >
+                <h5>ALL Projects</h5>
+                <h2 data-text-animation="rotate-in">
+                  From Vision to Reality My Portfolio of Accomplishments Projects
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="tf__single_blog"
+              data-animation="fade-left"
+              data-offset="100"
+            >
+              <div class="tf__single_blog_img">
+                <a
+                  href="#"
+                  data-cursor='<i class="fa-light fa-arrow-up-right"></i>'
+                >
+                  <img
+                    src="assets/images/blog_1.png"
+                    alt="blog img"
+                    class="img-fluid w-100"
+                /></a>
+                <p>31 January, 2025</p>
+              </div>
+              <div class="tf__single_blog_text">
+                <a href="#" class="tf__single_blog_heading"
+                  >International Screenwriting Association</a
+                >
+
+                <!-- <a href="#" class="tf__common_btn tf__blog_btn"
+                  >read more<i class="fa-solid fa-arrow-right-long"></i
+                ></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="tf__single_blog"
+              data-animation="fade-left"
+              data-delay=".25"
+              data-offset="100"
+            >
+              <div class="tf__single_blog_img">
+                <a
+                  href="#"
+                  data-cursor='<i class="fa-light fa-arrow-up-right"></i>'
+                >
+                  <img
+                    src="assets/images/blog_2.png"
+                    alt="blog img"
+                    class="img-fluid w-100"
+                /></a>
+                <p>31 January, 2025</p>
+              </div>
+              <div class="tf__single_blog_text">
+                <a href="#" class="tf__single_blog_heading"
+                  >Creative Screenwriter Association
+                </a>
+
+                <!-- <a href="#" class="tf__common_btn tf__blog_btn"
+                  >read more<i class="fa-solid fa-arrow-right-long"></i
+                ></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="tf__single_blog"
+              data-animation="fade-left"
+              data-delay=".5"
+            >
+              <div class="tf__single_blog_img">
+                <a
+                  href="#"
+                  data-cursor='<i class="fa-light fa-arrow-up-right"></i>'
+                >
+                  <img
+                    src="assets/images/blog_3.png"
+                    alt="blog img"
+                    class="img-fluid w-100"
+                /></a>
+                <p>31 January, 2023</p>
+              </div>
+              <div class="tf__single_blog_text">
+                <a href="#" class="tf__single_blog_heading"
+                  >Customer Medical Appointment Booking</a
+                >
+
+                <!-- <a href="#" class="tf__common_btn tf__blog_btn"
+                  >read more<i class="fa-solid fa-arrow-right-long"></i
+                ></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================
+        BLOG END
+    ==============================-->
+
+    <!--============================
         TESTIMONIAL START
     ==============================-->
-    <section class="tf__testimonial pt_145">
+    <section class="tf__testimonial pt_100" id="testimonial">
       <div class="container">
         <div class="row">
           <div class="col-xl-5">
             <div class="tf__common_heading tf__testimonial_heading">
-              <h5>Testomonial</h5>
+              <h5>Testimonial</h5>
               <h2 data-text-animation="rotate-in">What our clients say?</h2>
             </div>
           </div>
@@ -496,55 +685,49 @@
           <div class="row testimonial_slider">
             <div class="col-xl-6">
               <div class="tf__single_testimonial">
-                <div class="tf__single_testimonial_img">
+                <!-- <div class="tf__single_testimonial_img">
                   <img
                     src="assets/images/testimonial_1.jpg"
                     alt="testimonial"
                     class="img-fluid w-100"
                   />
-                </div>
-                <h4>Eleanor Pena</h4>
-                <span>Marketing Coordinator</span>
+                </div> -->
+                <h4>Randy</h4>
+                <span>Manager</span>
                 <p>
-                  Financial planners help people to knowledge in about how to
-                  invest and in save their moneye the most efficient way eve
-                  plan ners help people tioniio know ledige in about how.
-                </p>
+                Good job on migration and so far no issues reported and the couple of them reported are existing ones.
+                </p><br>
               </div>
             </div>
             <div class="col-xl-6">
               <div class="tf__single_testimonial">
-                <div class="tf__single_testimonial_img">
+                <!-- <div class="tf__single_testimonial_img">
                   <img
                     src="assets/images/testimonial_2.jpg"
                     alt="testimonial"
                     class="img-fluid w-100"
                   />
-                </div>
-                <h4>Eleanor Pena</h4>
-                <span>Marketing Coordinator</span>
+                </div> -->
+                <h4>Subramanian</h4>
+                <span>Team Lead</span>
                 <p>
-                  Financial planners help people to knowledge in about how to
-                  invest and in save their moneye the most efficient way eve
-                  plan ners help people tioniio know ledige in about how.
+                Good to know demo got completed for "Program Convert" to client. This is one of the complex functionality worked out by Siva. Great work!!
                 </p>
               </div>
             </div>
             <div class="col-xl-6">
               <div class="tf__single_testimonial">
-                <div class="tf__single_testimonial_img">
+                <!-- <div class="tf__single_testimonial_img">
                   <img
                     src="assets/images/testimonial_1.jpg"
                     alt="testimonial"
                     class="img-fluid w-100"
                   />
-                </div>
-                <h4>Eleanor Pena</h4>
-                <span>Marketing Coordinator</span>
+                </div> -->
+                <h4>Purnima</h4>
+                <span>Project Manager</span>
                 <p>
-                  Financial planners help people to knowledge in about how to
-                  invest and in save their moneye the most efficient way eve
-                  plan ners help people tioniio know ledige in about how.
+                Your timely completion of the work as planned is truly commendable. Your dedication and efforts are truly appreciated. Keep up the excellent work!
                 </p>
               </div>
             </div>
@@ -560,7 +743,7 @@
         EXPERIANCE START
     ==============================-->
     <section class="tf__experiance pt_100 pb_80">
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <div class="tf__brand pl_90 pr_100">
           <div class="row justify-content-xl-between justify-content-center">
             <div class="col-xl-2 col-sm-6 col-md-4 col-lg-4 col-6">
@@ -634,13 +817,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="tf__counter pt_75">
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-xl-3 col-md-6">
               <div class="tf__single_counter">
-                <h4><span class="counter">200</span>+</h4>
+                <h4><span class="counter">4</span>+</h4>
                 <p>Team member</p>
                 <h5 class="tf__counter_icon">
                   <i class="fas fa-users-cog"></i>
@@ -649,21 +832,21 @@
             </div>
             <div class="col-xl-3 col-md-6">
               <div class="tf__single_counter">
-                <h4><span class="counter">20</span>+</h4>
+                <h4><span class="counter">3</span>+</h4>
                 <p>Winning award</p>
                 <h5 class="tf__counter_icon"><i class="fas fa-award"></i></h5>
               </div>
             </div>
             <div class="col-xl-3 col-md-6">
               <div class="tf__single_counter">
-                <h4><span class="counter">10</span>k+</h4>
+                <h4><span class="counter">3</span></h4>
                 <p>Complete project</p>
                 <h5 class="tf__counter_icon">
                   <i class="far fa-file-certificate"></i>
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6">
+            <!-- <div class="col-xl-3 col-md-6">
               <div class="tf__single_counter">
                 <h4><span class="counter">900</span>+</h4>
                 <p>Client review</p>
@@ -671,7 +854,7 @@
                   <i class="fas fa-users-crown"></i>
                 </h5>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -680,137 +863,12 @@
         EXPERIANCE END
     ==============================-->
 
-    <!--============================
-        BLOG START
-    ==============================-->
-    <section class="tf__blog pt_145 pb_120">
-      <div class="container">
-        <div class="row">
-          <div class="row justify-content-center">
-            <div class="col-xl-10">
-              <div
-                class="tf__common_heading tf__common_heading2 tf__blog_heading"
-              >
-                <h5>ALL Blogs</h5>
-                <h2 data-text-animation="rotate-in">
-                  From Vision to Reality My Portfolio of Accomplishments
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="tf__single_blog"
-              data-animation="fade-left"
-              data-offset="100"
-            >
-              <div class="tf__single_blog_img">
-                <a
-                  href="/blog-details.html"
-                  data-cursor='<i class="fa-light fa-arrow-up-right"></i>'
-                >
-                  <img
-                    src="assets/images/blog_1.jpg"
-                    alt="blog img"
-                    class="img-fluid w-100"
-                /></a>
-                <p>31 December, 2023</p>
-              </div>
-              <div class="tf__single_blog_text">
-                <ul class="d-flex flex-wrap">
-                  <li><i class="far fa-user"></i>By admin</li>
-                  <li><i class="far fa-comments"></i>Comments (05)</li>
-                </ul>
-                <a href="/blog-details.html" class="tf__single_blog_heading"
-                  >These cases are perfectly simple and easy</a
-                >
-
-                <a href="/blog-details.html" class="tf__common_btn tf__blog_btn"
-                  >read more<i class="fa-solid fa-arrow-right-long"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="tf__single_blog"
-              data-animation="fade-left"
-              data-delay=".25"
-              data-offset="100"
-            >
-              <div class="tf__single_blog_img">
-                <a
-                  href="/blog-details.html"
-                  data-cursor='<i class="fa-light fa-arrow-up-right"></i>'
-                >
-                  <img
-                    src="assets/images/blog_2.jpg"
-                    alt="blog img"
-                    class="img-fluid w-100"
-                /></a>
-                <p>31 December, 2023</p>
-              </div>
-              <div class="tf__single_blog_text">
-                <ul class="d-flex flex-wrap">
-                  <li><i class="far fa-user"></i>By admin</li>
-                  <li><i class="far fa-comments"></i>Comments (05)</li>
-                </ul>
-                <a href="/blog-details.html" class="tf__single_blog_heading"
-                  >which is the same as saying through shrinking from toil
-                </a>
-
-                <a href="/blog-details.html" class="tf__common_btn tf__blog_btn"
-                  >read more<i class="fa-solid fa-arrow-right-long"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="tf__single_blog"
-              data-animation="fade-left"
-              data-delay=".5"
-            >
-              <div class="tf__single_blog_img">
-                <a
-                  href="/blog-details.html"
-                  data-cursor='<i class="fa-light fa-arrow-up-right"></i>'
-                >
-                  <img
-                    src="assets/images/blog_3.jpg"
-                    alt="blog img"
-                    class="img-fluid w-100"
-                /></a>
-                <p>31 December, 2023</p>
-              </div>
-              <div class="tf__single_blog_text">
-                <ul class="d-flex flex-wrap">
-                  <li><i class="far fa-user"></i>By admin</li>
-                  <li><i class="far fa-comments"></i>Comments (05)</li>
-                </ul>
-                <a href="/blog-details.html" class="tf__single_blog_heading"
-                  >when our power of choice is design untrammelled and when</a
-                >
-
-                <a href="/blog-details.html" class="tf__common_btn tf__blog_btn"
-                  >read more<i class="fa-solid fa-arrow-right-long"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--============================
-        BLOG END
-    ==============================-->
+    
 
     <!--============================
         CONTACT START
     ==============================-->
-    <section class="tf__contact pb_80">
+    <section class="tf__contact pb_80 pt_100" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-xl-6 col-md-12">
@@ -820,8 +878,8 @@
                 STAY CONECTED!
               </h4>
               <div class="tf__contact_mail">
-                <input type="text" placeholder="Enter email address" />
-                <a href="#" class="tf__subscribtion">SUBSCRIBE NOW</a>
+                <input type="text" placeholder="" />
+                <a href="#home" class="tf__subscribtion">Business opportunities are like buses, always another one coming.</a>
               </div>
               <div class="row justify-content-between">
                 <div class="col-xl-5 col-md-5">
@@ -832,15 +890,15 @@
                         ><i class="fa-sharp fa-solid fa-paper-plane"></i
                       ></span>
                       <div class="tf__address_area">
-                        <p>Old city street,USA</p>
-                        <p>1212 New york-3500</p>
+                        <p>6C, Raja street</p>
+                        <p>Subramaniyapuram</p>
+                        <p>Trichy-620020</p>
                       </div>
                     </div>
                     <div class="tf__single_address d-flex flex-wrap">
                       <span><i class="fa-sharp fa-solid fa-phone"></i></span>
                       <div class="tf__address_area">
-                        <p>(+888) 123 456 765</p>
-                        <p>(+888) 123 456 765</p>
+                        <p>(+91) 8248052118</p>
                       </div>
                     </div>
                   </div>
@@ -853,11 +911,11 @@
                         <a href="#"
                           ><i class="far fa-angle-double-right"></i
                           ><span class="text_hover_animaiton"
-                            >UI Design</span
+                            >Website Design</span
                           ></a
                         >
                       </li>
-                      <li>
+                      <!-- <li>
                         <a href="#"
                           ><i class="far fa-angle-double-right"></i
                           ><span class="text_hover_animaiton"
@@ -880,7 +938,7 @@
                             >Video Editing</span
                           ></a
                         >
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
@@ -937,7 +995,7 @@
           <div
             class="tf__main_copyright d-flex flex-wrap justify-content-between"
           >
-            <p>© Codeefly 2024 | All Rights Reserved</p>
+            <p>© Copyrights 2024 | All Rights Reserved</p>
             <ul class="d-flex flex-wrap">
               <li>
                 <a href="#" class="text_hover_animaiton">Trams & Condition</a>
@@ -945,7 +1003,7 @@
               <li>
                 <a href="#" class="text_hover_animaiton">Privacy Policy</a>
               </li>
-              <li><a href="#" class="text_hover_animaiton">Sitemap</a></li>
+              <!-- <li><a href="#" class="text_hover_animaiton">Sitemap</a></li> -->
             </ul>
           </div>
         </div>
