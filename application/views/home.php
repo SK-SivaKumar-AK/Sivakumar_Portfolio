@@ -8,7 +8,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="Sivakumar Portfolio" />
     <meta name="author" content="sivakumar" />
-    <title>Isti - Creative Portfolio HTML Template</title>
+    <title>SK-SivaKumar</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="assets/css/fontawesomepro.css" />
     <link rel="stylesheet" href="assets/css/plugin.css" />
@@ -1049,18 +1049,27 @@
                   data: formData,  // Pass the form data
                   dataType: 'json',
                   beforeSend: function() {
-                      $('#responseMessage').html('Sending...');
+                      $('#responseMessage').html('<p class="alert alert-info">Sending...</p>');
                   },
                   success: function(response) {
-                      if (response.status == 'success') {
+                      if (response.status == 'true') {
                           $('#responseMessage').html('<p class="alert alert-success">' + response.message + '</p>');
-                          $('#contactForm')[0].reset();  // Reset form
+                          $('#contactForm')[0].reset();
+                          setTimeout(function() {
+                              $('#responseMessage').html('');
+                          }, 3000);
                       } else {
                           $('#responseMessage').html('<p class="alert alert-danger">' + response.message + '</p>');
+                          setTimeout(function() {
+                              $('#responseMessage').html('');
+                          }, 3000);
                       }
                   },
                   error: function(xhr, status, error) {
-                      $('#responseMessage').html('<p class="alert alert-danger">There was an error sending the message. Please try again later.</p>');
+                      $('#responseMessage').html('<p class="alert alert-danger">'+error+'</p>');
+                      setTimeout(function() {
+                          $('#responseMessage').html('');
+                      }, 3000);
                   }
               });
           });
