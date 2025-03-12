@@ -22,4 +22,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+
+	public function send_email(){
+		print_r('test');
+		exit;
+	}
 }

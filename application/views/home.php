@@ -944,26 +944,26 @@
           </div>
 
           <div class="col-xl-6">
-            <form class="tf__form">
+            <form class="tf__form" id="contactForm">
               <div class="row">
                 <div class="col-xl-6">
                   <div class="tf__single_form">
-                    <input type="text" placeholder="Name*" />
+                    <input type="text" placeholder="Name*" name="name"/>
                   </div>
                 </div>
                 <div class="col-xl-6">
                   <div class="tf__single_form">
-                    <input type="email" placeholder="E-mail" />
+                    <input type="email" placeholder="E-mail" name="email"/>
                   </div>
                 </div>
                 <div class="col-xl-12">
                   <div class="tf__single_form">
-                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" placeholder="Phone Number" name="phone"/>
                   </div>
                 </div>
                 <div class="col-xl-12">
                   <div class="tf__single_form">
-                    <textarea rows="6" placeholder="Comment"></textarea>
+                    <textarea rows="6" placeholder="Comment" name="comment"></textarea>
                   </div>
                 </div>
                 <div class="col-xl-12">
@@ -975,6 +975,7 @@
                 </div>
               </div>
             </form>
+            <div id="responseMessage"></div>
           </div>
         </div>
       </div>
@@ -1031,9 +1032,39 @@
       <div id="ball"></div>
     </div>
     <!--js-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/plugin.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/scroll_top.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+          $('#contactForm').submit(function(e) {
+              e.preventDefault();  // Prevent the default form submission
+              var formData = $(this).serialize();  // Serialize form data
+              
+              $.ajax({
+                  type: 'POST',
+                  url: 'http://sivakumarportfolio/welcome/send_email',  // Update the URL to your controller method
+                  data: formData,  // Pass the form data
+                  dataType: 'json',
+                  beforeSend: function() {
+                      $('#responseMessage').html('Sending...');
+                  },
+                  success: function(response) {
+                      if (response.status == 'success') {
+                          $('#responseMessage').html('<p class="alert alert-success">' + response.message + '</p>');
+                          $('#contactForm')[0].reset();  // Reset form
+                      } else {
+                          $('#responseMessage').html('<p class="alert alert-danger">' + response.message + '</p>');
+                      }
+                  },
+                  error: function(xhr, status, error) {
+                      $('#responseMessage').html('<p class="alert alert-danger">There was an error sending the message. Please try again later.</p>');
+                  }
+              });
+          });
+      });
+    </script>
   </body>
 </html>
